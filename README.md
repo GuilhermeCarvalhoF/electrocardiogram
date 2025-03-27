@@ -1,32 +1,32 @@
-
-# electrocardiogram
-A quick study about heartbeats observations in order to predict the risk factor of a heart disease.
-=======
 # Electrocardiograms
+This project is a quick and simple demonstration about how to predict cardiac diseases based on observations in electrocardiograms
 
-## Download the dataset
+######
+### Table of Contents
+######
+- [About the Project](#about-the-project)
+- [Technologies Used](#technologies-used)
+- [Results](#results)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-The dataset is available [here](https://wagon-public-datasets.s3.amazonaws.com/Machine%20Learning%20Datasets/ML_Electrocardiograms_dataset.csv). Let's download it and store it in the `data` folder in the `02-Electrocardiograms` directory with the following commands:
 
-```bash
-cd ~/code/<user.github_nickname>/{{local_path_to("05-ML/03-Performance-metrics/02-Electrocardiograms")}}
-curl https://wagon-public-datasets.s3.amazonaws.com/Machine%20Learning%20Datasets/ML_Electrocardiograms_dataset.csv > data/electrocardiograms.csv
-```
+## About the Project
+This project has the target of track the probability of a heart disease.
 
-## The dataset
+## Technologies Used
+- Python
+- Pandas, NumPy, Scikit-learn
+- Matplotlib, Seaborn
+- Jupyter Notebook
+- SQL for data queries
+- KNN and LogisticRegression
 
-- Each observation of the dataset is a numerically represented heartbeat, taken from a patient's electrocardiogram (ECG).
-- The `target` is binary and defines whether the heartbeat is at risk of cardiovascular disease [1] or not [0].
+## Results
+- Able to predict with 93% accuracy the chances of a heart disease..
 
-## Exercise
+## Contributing
+If you'd like to contribute, feel free to fork the repository and submit a pull request.
 
-🎯 Your task is to flag heartbeats that are at risk of cardiovascular diseases. You will:
-
-- Investigate the class balance of the dataset
-- Evaluate and compare two models: KNN and LogisticRegression
-- Use Confusion matrix and Classification report to get insight on the models' performances
-- Choose the optimal model based on the appropriate metric
-
-To start the exercise, open `Electrocardiograms.ipynb` in `jupyter notebook` and follow the instructions.
-
-🚀 Your turn!
+## Contact
+Guilherme Fernandez – [LinkedIn](https://www.linkedin.com/in/guilhermecarvalhof/) – guilhermecarvalho.92@hotmail.com
